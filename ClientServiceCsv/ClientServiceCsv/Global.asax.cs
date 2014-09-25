@@ -6,6 +6,8 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using System.Configuration;
+using System.Web.Configuration;
 
 namespace ClientServiceCsv
 {
@@ -23,6 +25,14 @@ namespace ClientServiceCsv
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             AuthConfig.RegisterAuth();
+
+            Configuration config = WebConfigurationManager.OpenWebConfiguration("~");
+
+            ConnectionStringsSection connSection = (ConnectionStringsSection)config.GetSection("connectionStrings");
+
+            connSection.SectionInformation.ProtectSection("DataProtectionConfigurationProvider");
+
+            config.Save();
         }
     }
 }
