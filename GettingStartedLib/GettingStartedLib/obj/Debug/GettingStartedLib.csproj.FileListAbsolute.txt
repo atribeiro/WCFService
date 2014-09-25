@@ -1,0 +1,18 @@
+D:\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.dll.config
+D:\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.dll
+D:\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.pdb
+D:\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.dll
+D:\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.pdb
+C:\Users\Anabela\Documents\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.dll.config
+C:\Users\Anabela\Documents\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.dll
+C:\Users\Anabela\Documents\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.pdb
+C:\Users\Anabela\Documents\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.csprojResolveAssemblyReference.cache
+C:\Users\Anabela\Documents\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.dll
+C:\Users\Anabela\Documents\Visual Studio 2012\Projects\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.pdb
+F:\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.dll.config
+F:\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.dll
+F:\GettingStartedLib\GettingStartedLib\bin\Debug\GettingStartedLib.pdb
+F:\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.csprojResolveAssemblyReference.cache
+F:\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.dll
+F:\GettingStartedLib\GettingStartedLib\obj\Debug\GettingStartedLib.pdb

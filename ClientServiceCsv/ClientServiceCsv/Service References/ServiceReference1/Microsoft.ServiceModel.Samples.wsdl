@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://Microsoft.ServiceModel.Samples" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://Microsoft.ServiceModel.Samples" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://Microsoft.ServiceModel.Samples/Imports">
+      <xsd:import namespace="http://Microsoft.ServiceModel.Samples" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/GettingStartedLib" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICsvService_GetName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetName" />
+  </wsdl:message>
+  <wsdl:message name="ICsvService_GetName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICsvService_GetCountry_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountry" />
+  </wsdl:message>
+  <wsdl:message name="ICsvService_GetCountry_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCountryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICsvService_GetPerson_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetPerson" />
+  </wsdl:message>
+  <wsdl:message name="ICsvService_GetPerson_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetPersonResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICsvService_GetListOfPeople_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetListOfPeople" />
+  </wsdl:message>
+  <wsdl:message name="ICsvService_GetListOfPeople_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetListOfPeopleResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICsvService">
+    <wsdl:operation name="GetName">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetName" message="tns:ICsvService_GetName_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetNameResponse" message="tns:ICsvService_GetName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCountry">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetCountry" message="tns:ICsvService_GetCountry_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetCountryResponse" message="tns:ICsvService_GetCountry_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPerson">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetPerson" message="tns:ICsvService_GetPerson_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetPersonResponse" message="tns:ICsvService_GetPerson_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetListOfPeople">
+      <wsdl:input wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetListOfPeople" message="tns:ICsvService_GetListOfPeople_InputMessage" />
+      <wsdl:output wsaw:Action="http://Microsoft.ServiceModel.Samples/ICsvService/GetListOfPeopleResponse" message="tns:ICsvService_GetListOfPeople_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>
